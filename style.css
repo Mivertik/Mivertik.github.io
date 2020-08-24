@@ -1,0 +1,183 @@
+header{
+    margin: 0;
+    padding: 0;
+    background: #76787a;
+    height:50px;
+    display: flex;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: url(fon.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100%;
+}
+
+.Logo{
+    background: #6e6e6e;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    float:left;
+    
+}
+
+.Logo:hover{
+  font-size: 150%;
+  transition: 1s;
+}
+.Nav{
+    width:90%;
+    height: 100%;
+    background: #76787a;
+    
+}
+.Link{
+    background:#5f6061;   /*#5f6061 оригинальный цвет*/
+    display: inline-block;
+    width: 100px;
+    height:100%;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 10px;
+    transition: background 1s;
+}
+
+.Link:hover{
+    background: #4b4f52;
+}
+
+.Link_nav{
+	background:#5f6061;   /*#5f6061 оригинальный цвет*/
+    display: inline-block;
+    width: 100px;
+    height:100%;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 10px;
+    transition: background 1s;
+}
+
+
+.Link_nav:hover{
+   background: #ff47c8;	
+}
+
+
+
+
+
+.a_nav{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.LogNav{
+    width: 10%;
+    height: 100%;
+    
+}
+
+.Log{
+    background: #5f6061;
+    display: inline-block;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    line-height: 50px;
+    color:white;
+    
+}
+
+.Log:hover{
+    background:  #4b4f52;
+    color:black;
+    transition:background 1s;
+}
+h2,h3,h1,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+	margin: 0;
+	padding: 0;
+
+	width: 100%;
+	height: 84vh;
+	position: absolute;
+}
+.content{
+
+	margin: 0 auto;
+	padding: 0;
+	width: 70%;
+	height: 100%;
+
+
+}
+.td1{
+	display: flex;
+	justify-content: space-between;
+}
+.td2{
+	display: flex;
+	justify-content: space-between;
+}
+.td3{
+	display: flex;
+	justify-content: space-between;
+}
+.td4{
+	display: flex;
+	justify-content: space-between;
+}
+.les{
+	margin: 10px 10px;
+	padding: 0;
+	background:#e3009f;
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	transition: background 0.5s;
+	
+}
+.td_a{
+	color: white;
+	text-decoration: none;
+}
+
+.les:hover{
+	background: #ff80d5;
+}
+
+.hrl{
+
+	width: 100%;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 25px;
+}
+.Vhod{
+	display:block;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 5%;
+	height: 300px;
+  background:red;
+}
+.Vhod_hi{
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	background: green;
+	font-family: 'Oswald', sans-serif;
+}
